@@ -1,1 +1,1 @@
-web: python djangblogs.wsgi
+web: gunicorn djangblogs.wsgi
